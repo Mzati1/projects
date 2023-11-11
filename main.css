@@ -1,0 +1,100 @@
+/*fonts i got from google fonts*/
+  /*Tourney */@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: #B0C4DE;
+}
+
+/*navigation css*/
+
+nav{
+    background-color: #89CFF0;
+    background: #89CFF0;
+    position: sticky;
+    z-index: 1;
+}
+
+/*search box css(mostly just scaling)*/
+.input-group{
+    scale: 0.8;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+/*container css*/
+
+.container-fluid{
+    scale: 0.8;
+    background: none;
+    background-color: white;
+    border-radius: 5vh;
+}
+
+.row .col h1{
+    text-align: left;
+    margin-top: 18vh;
+    margin-left: 32vh;
+    scale: 1.4;
+}
+
+
+.row .col p{
+    margin-top: 0vh;
+    text-align: left;
+    margin-left: 22vh;
+}
+
+
+.row .col .lead{
+    margin-top: 0vh;
+    text-align: left;
+    margin-left: 25vh;
+}
+
+#mid-module{
+scale: 0.6;
+}
+
+.row .col{
+    display: block;
+}
+
+#col-mid{
+    background-color: white;
+    border-radius: 9vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.row .col .lead{
+    text-align: left;
+    margin-left: 23vh;
+    font-size: xx-large;
+}
+
+#wind-speed, #humidity-percentage
+{
+    position: absolute;
+    scale: 3;
+    padding-top: 110px;
+    padding-left: 39px;
+    font-family: 'Tourney', sans-serif;
+    opacity: 0.7;
+}
+
+#humidity-percentage
+{
+    scale: 7;
+    margin-top: 0vh;
+    padding-top: 61px;
+    padding-left: 22px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container-fluid,#mid-module,.alert{
+    display: none;
+}
+
+
